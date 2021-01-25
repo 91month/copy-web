@@ -1,0 +1,862 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    color: rgb(190, 190, 190);
+    line-height: 44px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: "SF Pro Text", "Myriad Set Pro";
+
+
+}
+
+.iphone>a {
+    color: grey !important;
+}
+
+.nav-top {
+    height: 44px;
+    background-color: rgb(10, 10, 10);
+}
+
+.thousand {
+    height: 100%;
+    width: 1000px;
+    background-color: rgb(10, 10, 10);
+    margin: 0 auto;
+}
+
+
+.nav-top1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-top1>li:hover a {
+    color: #f5f5f7;
+}
+
+
+/* 导航上部黑色完成 */
+
+
+
+
+/* 导航上部图标开始 */
+
+
+.chapternav-icon>img {
+    height: 54px;
+}
+
+
+.nav-top2-items {
+    display: flex;
+    flex-direction: row;
+    width: 840px;
+    height: 86px;
+    margin: 0 auto;
+    justify-content: center;
+    position: absolute;
+    top: 56px;
+    left: 544px;
+
+}
+
+
+.nav-top2-items>li {
+    text-align: center;
+    margin: 0;
+    padding: 0 18px;
+}
+
+
+.nav-top2-items span {
+    color: #1d1d1f;
+    font-size: 12px;
+    line-height: 0.1;
+    font-family: "SF Pro Text", "SF Pro Icons";
+    display: block;
+    margin: 0;
+    position: relative;
+    height: 16px;
+}
+
+.chapternav-new {
+    color: #bf4800 !important;
+}
+
+
+.chapternav-link :hover {
+    color: rgb(34, 122, 209);
+}
+
+
+
+
+
+
+/* 导航蓝色部分开始 */
+
+
+.nav-blue {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0073e3;
+    position: absolute;
+    top: 160px;
+
+}
+
+.nav-blue>a {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav-blue:hover a {
+    text-decoration: underline;
+}
+
+/* 导航蓝色部分完成 */
+
+
+
+
+/* iPhone SE开始 */
+
+
+.iPhoneSE {
+    width: 980px;
+    height: 563px;
+
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -490px;
+    display: flex;
+}
+
+
+.iPhoneSE-word {
+    width: 50%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-top: 160px;
+
+}
+
+.iPhoneSE-image {
+    width: 50%;
+}
+
+
+.iPhoneSE-image img {
+    width: 490px;
+    height: 563px;
+    margin: 60px;
+
+
+}
+
+
+.iPhoneSE-word div:nth-child(1) {
+    color: #bf4800;
+    font-size: 17px;
+}
+
+.iPhoneSE-word div:nth-child(2) {
+    width: 110px;
+    height: 26px;
+    background-size: 110px 26px;
+    background-repeat: no-repeat;
+    background-image: url(../../img/mainpage-img/iPhoneSElogo.jpg);
+    margin-top: 16px;
+    margin-bottom: 9px;
+}
+
+.iPhoneSE-word div:nth-child(3) {
+    margin-top: 6px;
+    color: #1d1d1f;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+}
+
+.iPhoneSE-word div:nth-child(4) {
+
+    color: #1d1d1f;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+}
+
+.iPhoneSE-word div:nth-child(5) {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 500;
+    letter-spacing: .007em;
+    margin: 14px 0;
+    font-family: "SF Pro Display", "SF Pro Icons";
+
+}
+
+.iPhoneSE-word div:nth-child(6) {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+
+.iPhoneSE-word div:nth-child(7) {
+    margin-top: 24px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    background: #0071e3;
+}
+
+.iPhoneSE-word div:nth-child(7)>a {
+    font-size: 17px;
+    line-height: 1.17648;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+
+
+
+
+.iPhoneSE-word div:nth-child(8) {
+    margin: 12px 0 0;
+
+}
+
+.iPhoneSE-word div:nth-child(8)>a {
+    color: #06c;
+    font-size: 17px;
+    line-height: 1.23536;
+}
+
+.iPhoneSE-word div:nth-child(8):hover a {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* iPhone11开始 */
+
+
+
+.iPhone11 {
+    width: 980px;
+    height: 563px;
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    margin-left: -490px;
+    display: flex;
+}
+
+
+.iPhone11-image {
+    width: 50%;
+    margin-left: 10px;
+}
+
+
+.iPhone11-word {
+    width: 50%;
+    text-align: left;
+    padding-top: 160px;
+    margin-left: 100px;
+
+}
+
+
+
+
+.iPhone11-image img {
+    width: 490px;
+    height: 563px;
+
+
+}
+
+
+.iPhone11-word div:nth-child(1) {
+
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.14286;
+}
+
+.iPhone11-word div:nth-child(2) {
+    margin-top: 6px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.iPhone11-word div:nth-child(3) {
+    margin-top: 6px;
+    color: #1d1d1f;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+}
+
+.iPhone11-word div:nth-child(4) {
+
+    color: #1d1d1f;
+    font-size: 48px;
+    line-height: 1.38349;
+    font-weight: 600;
+}
+
+.iPhone11-word div:nth-child(5) {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 500;
+    letter-spacing: .007em;
+    margin: 14px 0;
+    font-family: "SF Pro Display", "SF Pro Icons";
+
+}
+
+
+.iPhone11-word div:nth-child(5) {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+
+.iPhone11-word div:nth-child(6) {
+    margin-top: 24px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    background: #0071e3;
+}
+
+.iPhone11-word div:nth-child(6)>a {
+    font-size: 17px;
+    line-height: 1.17648;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+
+
+
+
+.iPhone11-word div:nth-child(7) {
+    margin: 12px 0 0;
+
+}
+
+.iPhone11-word div:nth-child(7)>a {
+    color: #06c;
+    font-size: 17px;
+    line-height: 1.23536;
+}
+
+
+.iPhone11-word div:nth-child(7):hover a {
+    text-decoration: underline;
+
+}
+
+
+/* iPhone11Pro 开始 */
+
+
+
+
+.iPhone11Pro {
+    width: 980px;
+    height: 563px;
+    position: absolute;
+    top: 1750px;
+    left: 50%;
+    margin-left: -490px;
+    display: flex;
+}
+
+
+.iPhone11ProPro-image {
+    width: 50%;
+    padding-left: 30px;
+
+}
+
+
+.iPhone11Pro-word {
+    width: 50%;
+    text-align: left;
+    padding-top: 80px;
+    margin-left: 10px;
+
+}
+
+
+
+
+.iPhone11Pro-image img {
+    width: 490px;
+    height: 563px;
+
+
+}
+
+
+.iPhone11Pro-word div:nth-child(1) {
+
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.14286;
+}
+
+.iPhone11Pro-word div:nth-child(2) {
+    margin-top: 6px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.iPhone11Pro-word div:nth-child(3) {
+    margin-top: 6px;
+    color: #1d1d1f;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+}
+
+.iPhone11Pro-word div:nth-child(4) {
+
+    color: #1d1d1f;
+    font-size: 48px;
+    line-height: 1.38349;
+    font-weight: 600;
+}
+
+.iPhone11Pro-word div:nth-child(5) {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 500;
+    letter-spacing: .007em;
+    margin: 14px 0;
+    font-family: "SF Pro Display", "SF Pro Icons";
+
+}
+
+
+.iPhone11Pro-word div:nth-child(5) {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+
+.iPhone11Pro-word div:nth-child(6) {
+    margin-top: 24px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    background: #0071e3;
+}
+
+.iPhone11Pro-word div:nth-child(6)>a {
+    font-size: 17px;
+    line-height: 1.17648;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+
+
+
+
+.iPhone11Pro-word div:nth-child(7) {
+    margin: 12px 0 0;
+
+}
+
+.iPhone11Pro-word div:nth-child(7)>a {
+    color: #06c;
+    font-size: 17px;
+    line-height: 1.23536;
+}
+
+
+.iPhone11Pro-word div:nth-child(7):hover a {
+    text-decoration: underline;
+
+}
+
+
+
+
+
+/* Which iPhone is right for you? 开始 */
+
+
+
+.iPhone-right {
+    width: 980px;
+    height: 909px;
+    position: absolute;
+    top: 2500px;
+    left: 50%;
+    margin-left: -490px;
+}
+
+
+.nav-right1 {
+    width: 100%;
+    height: 52px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display";
+    text-align: center;
+}
+
+.nav-right2 {
+
+    width: 278px;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.nav-right2>a {
+
+    width: 400px;
+    height: 30px;
+    font-size: 24px;
+    color: #06c;
+    float: left;
+    position: relative;
+    left: 313px;
+
+}
+
+.nav-right2:hover a {
+    text-decoration: underline;
+}
+
+
+
+.right-image {
+    display: flex;
+}
+
+.right-image img {
+    margin-bottom: 30px;
+}
+
+
+.right-image>div {
+    width: 205px;
+    height: 573px;
+    margin: 40px 20px;
+
+}
+
+
+.iPhone-right3 {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+}
+
+
+.img-right1 {
+    width: 205px;
+    height: 28px;
+    background-image: url(../../img/mainpage-img/iPhoneSElogo.jpg);
+    background-size: 98px 20px;
+    background-repeat: no-repeat;
+
+}
+
+.img-right2 {
+    width: 205px;
+    height: 28px;
+    background-image: url(../../img/mainpage-img/iphonexr-logo.png);
+    background-size: 112px 18px;
+    background-repeat: no-repeat;
+
+}
+
+
+.image-money {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.42859;
+    letter-spacing: -.016em;
+
+}
+
+
+.image-money1 {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    margin: 25px 0;
+
+}
+
+.right-buy {
+    width: 30px;
+    height: 24px;
+    background: #0071e3;
+    border-radius: 12px;
+    padding-left: 10px;
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+
+.right-buy>a {
+    font-size: 12px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+.right-more {
+    color: #06c !important;
+    font-size: 14px;
+    line-height: 1.42859;
+}
+
+
+.right-more:hover {
+    text-decoration: underline;
+}
+
+
+
+.apple-card {
+    width: 1400px;
+    height: 500px;
+    position: absolute;
+    top: 3600px;
+    left: 400px;
+}
+
+
+.apple-card-image {
+
+    width: 722px;
+    height: 443px;
+    background-image: url(../../img/mainpage-img/apple_card.jpg);
+    background-repeat: no-repeat;
+}
+
+.apple-card-words {
+    position: absolute;
+    top: 60px;
+    left: 900px;
+
+}
+
+.words1 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+
+.words2 {
+    margin-top: 10px;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+.apple-card-words div:nth-child(6)>a {
+    font-size: 21px;
+    color: #06c;
+    font-family: "SF Pro Display";
+
+}
+
+.apple-card-words div:nth-child(6)>a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.make-iphone {
+    width: 1380px;
+    height: 1380px;
+    position: absolute;
+    top: 4200px;
+    left: 50%;
+    margin-left: -690px;
+}
+
+
+.make-iphone>div:nth-child(1) {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 80px 0;
+
+}
+
+.make-iphone1>span {
+    position: absolute;
+    top: 418px;
+    left: 630px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .007em;
+    color: #f5f5f7;
+
+}
+
+.make-iphone1>div {
+    position: absolute;
+    top: 460px;
+    left: 270px;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: .007em;
+    color: #f5f5f7;
+
+}
+
+.make-iphone1>a {
+    position: absolute;
+    top: 520px;
+    left: 630px;
+    font-size: 21px;
+    letter-spacing: .007em;
+    color: #f5f5f7;
+
+}
+
+.hover1:hover {
+    text-decoration: underline;
+}
+
+
+.privacy {
+    width: 1380px;
+    height: 500px;
+    margin-top: 30px;
+    background-color: #000;
+    position: relative;
+}
+
+.privacy>div:nth-child(2) {
+    margin-left: 820px;
+    margin-top: 40px;
+    padding-top: 80px;
+}
+
+.privacy1 {
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+
+.privacy2 {
+    font-size: 48px;
+    color: white;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+}
+
+.privacy1>a {
+    color: #2997ff;
+    font-size: 21px;
+    line-height: 1.381;
+    position: absolute;
+    top: 70px;
+    left: -100px;
+}
+
+.privacyhover:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.foot {
+    width: 1405px;
+    height: 700px;
+    position: absolute;
+    top: 5600px;
+    left: 260px;
+}
+
+
+.foot li {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    margin-bottom: 9.6px;
+
+}

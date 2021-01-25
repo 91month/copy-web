@@ -1,0 +1,432 @@
+/* 写通用样式 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #2997ff;
+}
+/*显示下划线*/
+.a_de:hover{
+    text-decoration: underline;
+    font-size: 16px;
+    color: #2997ff;
+}
+/*字体加粗*/
+.bold_font{
+    font-weight: bold;
+}
+
+div {
+    box-sizing: border-box;
+}
+/* 写通用样式 */
+
+
+/* 导航栏 start */
+.w {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+.nav-container {
+    height: 44px;
+    background-color: #1D1D1F;
+    font-size: 12px;
+}
+
+.nav-container .nav-left li:hover a {
+    color: #fff;
+}
+
+.nav-container a {
+    color: #fdfdfdaf;
+}
+
+.nav-left>li{
+    padding: 0px;   
+}
+.nav-left {
+    display: flex;
+    height: 44px;
+    color: #f5f5f7;
+    justify-content: center;
+    align-items: center;/*弹性盒子居中*/
+    justify-content: space-between;   
+}
+.apple_image{
+   padding-top: 5px;
+}
+.search_image{
+    font-size: 25px;
+}
+.bag_image{
+    width: 17px;
+    padding-top: 5px;
+}
+/* 导航栏 end */
+
+/*物品导航栏start*/
+.products-color{
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    /*background-image: -webkit-linear-gradient(150deg,#fe7142, #cb4fc2 25%, #9A57E8 50%, #53A0E8 100%);*/
+    background: linear-gradient(90deg, #53A0E8 0%, #cb4fc2 40%, #9A57E8 80%, #53A0E8 100%);
+    background-size: 400%;
+    animation: sun 12s infinite;
+    
+}
+
+/*动画*/
+@keyframes sun {
+    100% {
+      background-position: -400% 0;
+    }
+} 
+
+.products-music{ 
+    height: 120px;
+    box-shadow: 0px 0.5px 10px 0px rgb(14, 13, 13,0.1); 
+}
+
+
+.music-pro-con{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.music-pro-con li{
+    width: 85px;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 20px;
+}
+.music-pro-con li:hover div{
+    color:#fdfdfdaf;
+    
+}
+.music-pro-con li:nth-child(2) img{
+   width: 36px;
+}
+.music-pro-con li:nth-child(3) img{
+    width: 27px;
+ }
+ .music-pro-con li:nth-child(6) img{
+    width: 17px;
+ }
+.font{
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 3;
+
+}
+/*物品导航栏start*/
+
+
+/*动态背景start*/
+.one_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one_box{
+    width: 380px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    color: #fff;
+}
+.apple_width{
+    font-size: 30px;
+}
+.one_font_introduce{
+    font-size: 51px;
+}
+
+.one_box_shuipin{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 28px;
+    width: 250px;
+    height: 40px;
+    line-height:2.2;
+ 
+}
+.one_box_radius{
+    width: 112px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align:center;
+    line-height:2.2;
+ 
+}
+.one_box_radius:hover{
+    background-color: #ffffffdc;
+}
+.right_width{
+    font-size: 14px;
+    position: relative;
+    right: 4px;
+    color: #2997ff;
+}
+
+.one_pic{
+    width: 620px;
+    height: 620px; 
+    position: relative;
+    left: 160px;
+    top: 70px;
+}
+.one_pic img{
+   width: 610px;
+}
+/*动态背景end*/
+
+/*产品介绍第一部分start*/
+.two_body{
+    height: 650px;
+    display: flex;
+    margin-top: 20px;
+    justify-content:center;
+    align-items: center;
+    background-color: #000000;
+}
+.two_box{
+    width: 380px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 186px;
+    color: #fff;
+}
+.AirPods{
+    font-size: 21px;
+    position: relative;
+    left: -10px;
+
+}
+.two_box_shuipin{
+    display: flex;
+    margin-top: 16px;
+    line-height:2.2;
+
+}
+.two_left{
+    position: relative;
+    left: -20px;
+    
+}
+.two_pic{
+    /* width: 100%; 添加后无法居中*/
+    position: relative;
+    top: 33px;
+}
+/*产品介绍第一部分start*/
+
+/*产品介绍第二部分start*/
+.three_body{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.three_box{
+    width: 730px;
+    height: 980px;
+    background-color: #FAFAFA;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*box-shadow: 5px 5px 10px 0px grey;*/
+}
+/*调整个别图片位置*/
+.three_pic1{
+    position: relative;
+    top: 125px;
+}
+.three_pic2{
+    position: relative;
+    top: 40px;
+}
+.three_pic3{
+    position: relative;
+    top: 60px;  
+}
+.three_pic4{
+    position: relative;
+    top: 60px;
+}
+.three_font_position{
+    position: relative;
+    left: 30px;
+}
+/*产品介绍第二部分end*/
+
+
+/*优秀音乐软件介绍start*/
+.four_body{
+    height: 960px;
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.four_image{
+    height: 400px;
+    width: 1510px;
+    background-image: url('https://www.apple.com.cn/music/images/overview/appsfromapple__ccg14s8qy6qa_large.jpg');
+    background-size: cover;
+}
+.four_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    /*四个盒子位置*/
+    /*margin-top: 50px;*/
+    position: relative;
+    top: 45px;
+}
+.four_small_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.four_fonts{
+    font-size: 42px;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+/*图片位置调整*/
+.four_font_position{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+/*优秀音乐软件介绍end*/
+
+
+/*链接总菜单上部分start*/
+.five_body{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.five_font1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.five_font2{
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/*链接总菜单上部分end*/
+
+
+/*链接总菜单下部分start*/
+.six_body{
+    height: 540px;
+    font-size: 12px;
+    background-color: #f5f5f7;
+    color: #515154;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.six_box_font1{
+    height: 45px;
+    width: 980px;
+    display: flex;
+    padding: 14px 0px;
+    color: #86868B;
+    border-bottom: 1px solid #d2d2d7;
+    position: relative;
+    bottom: 8px;
+}
+.six_box_iconfont{
+    height: 56px;
+    width: 980px;
+    padding: 17px 0px;
+}
+.six_apple_font{
+    font-size: 18px;
+    color: #515154;
+}
+
+
+.six_box1{
+    height: 312px;
+    width: 980px;
+    display: flex;
+}
+
+.six_li_a{
+    height: 312px;
+    width: 196px;
+}
+.six_li_a li{
+    margin-top: 12px;
+}
+.six_li_a li>a{
+    margin-top: 12px;
+    color: #515154;
+}
+.six_li_a li>a:hover{
+    text-decoration: underline; 
+}
+.six_box2{
+    height: 56px;
+    width: 980px;
+    display: flex;
+    align-items: flex-end;
+    color: #86868B;
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 10px;
+}
+.six_box3{
+    width: 980px;
+    display: flex;
+    align-items: center;
+    color: #86868B;
+    position: relative;
+    top: 10px;
+}
+/*链接总菜单下部分end*/
+
+
+
+
+
+

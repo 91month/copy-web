@@ -1,0 +1,623 @@
+/* 通用样式 */
+*{
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style:none;
+}
+/* 最顶部固定栏 start*/
+.nav-top{
+    height:40px;
+    width:100%;
+    background-color: #444;
+    margin-top:0;
+    position: fixed !important;
+    /* position: absolute; */
+    top:0px;
+    right:0;
+    z-index:999;
+}
+.top{
+    font-size: 12px;
+    color:#a8a8aa;  
+    line-height: 40px;
+    padding:0 250px;
+    margin: 0 auto;
+    position:relative;
+    left:0;
+    text-align: right;
+}
+/* 最顶部固定栏 end*/
+
+/* 导航栏  start */
+/* 容器 */
+.NAV{
+    /* 固定导航栏 */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    margin: 40px 0;
+    /* 设置宽高 */
+    width: 100%;
+    height: 48px;
+    background: rgba(0,0,0,0.92);
+}
+.nav-container{
+    display: flex; 
+    height:44px;
+    width:100%;
+    margin: 0 -10px;
+    padding: 0 10px;
+} 
+/* 设置弹性盒子使字体横向分布  水平垂直居中*/
+.nav{
+    display: flex;
+    height:40px;
+    /* 垂直居中 */
+    align-items: center;
+    /* 父级设置盒子，margin选自动 实现水平居中 */
+    margin:auto;
+}
+/* 字体样式 */
+.nav a{
+    /* 去掉a标签下划线 */
+    text-decoration: none;
+    font-size: 14px;
+    color:#e1e1e9f5;
+    margin: 0 40px;
+}
+/* 字体图标 分组选择器*/
+.Apple{
+    font-size:24px;
+}
+.shopping,
+.finding{
+    font-size: 24px;
+}
+/* 字体 */
+.SE-font44,.info-font24,
+.iphone11-font44,.everthing-font24,
+.iPhone11-Pro32,.function19,
+.WWDC20-32,.summer32,.Watch-ipad32,.series5-10,
+.Watch-ipad19,.third-square-font44,.music32,
+.music19{
+    font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.lowest-price-font17,
+.price-font17,.iPhone11-pro-price17,
+.home32,.home30{
+    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Watch-ipad32,.series5-10{
+    /* 加粗 */
+    font-weight: 600;}
+
+    /* 滑过变亮 */
+.nav>li a:hover{
+    color:rgb(255,255,255);
+}
+/* 导航栏  end */
+
+
+
+/* 产品展示  start */
+/* iPhone */
+/* 容器 */
+.iPhone-con {
+    position: relative;
+    left: 0;
+    top:-55px;
+    height:613px;
+    width:100%;
+    background-color: rgb(19,19,19);
+    background-image: url(../img/iphone.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+/* 文字通用样式 */
+.iPhone-text {
+    position: relative;
+    left:0;
+    top:110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:55px 0;
+}
+/* 字体样式 */
+.newphone-font17{
+    font-size: 17px;
+    color:rgb(191, 72, 0);
+    letter-spacing: normal;
+    line-height: 25px;
+}
+.SE-font44{
+    font-size:44px;
+    color:rgb(222, 222, 231);
+    line-height: 48px;
+    letter-spacing: normal;
+}
+.info-font24{
+    font-size:24px;
+    color:rgb(245, 245, 247);
+    line-height: 0.216px;
+    line-height: 28px;
+}
+.lowest-price-font17{
+    font-size:17px;
+    color:rgb(134, 134, 139);
+    line-height:25px;
+}
+.further-font21 a{
+    font-size:21;
+    color:rgb(41, 151, 255);
+    text-decoration: none;
+}
+.iPhone-text>.further-font21 a:hover{
+    text-decoration: underline;
+}
+/* iphone  end */
+
+/* iphone11  start */
+/* 容器 */
+.iPhone11-con {
+    position: relative;
+    left: 0;
+    top:-90px;
+    height:610px;
+    width:100%;
+    background-color: rgb(250, 250, 250);
+    background-image: url(../img/iiphone11.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: 100% ;
+}
+/* 文字通用样式 */
+.iPhone11-text {
+    position: relative;
+    left:0;
+    top:80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:35px 0;
+}
+.iphone11-font44{
+    font-size:44px;
+    color:rgb(29, 29, 31);
+    line-height:10px;
+    
+}
+.everthing-font24{
+    font-size:24px;
+    line-height:66px;
+    color:rgb(29, 29, 31);
+    
+}
+.price-font17{
+    font-size:17;
+    color:rgb(134, 134, 139);
+    line-height:10px;
+    margin-top:0px;
+}
+.further11-font21 a{
+    font-size:21;
+    color:rgb(41, 151, 255);
+    text-decoration: none;
+    line-height: 50px;
+}
+.iPhone11-text>.further11-font21 a:hover{
+    text-decoration: underline;
+}
+/* iphone11 end */
+
+/* 第三个方框 start */
+.third-square {
+    position: relative;
+    left: 0;
+    top:-120px;
+    height:610px;
+    width:100%;
+    background-color: rgb(250, 250, 250);
+    background-image: url(../img/third-square.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: 100% ;
+}
+.third-square-text {
+    position: relative;
+    left:0;
+    top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:35px 0;
+}
+
+.third-square-font44{
+    font-size:44px;
+    color:rgb(29, 29, 31);
+    line-height:10px;
+    font-weight:600;
+}
+
+.third-square-font21 a{
+    font-size:21;
+    color:rgb(41, 151, 255);
+    text-decoration: none;
+    line-height: 90px;
+}
+
+.third-square-text>.third-square-font21 a:hover{
+    text-decoration: underline;
+}
+
+/* 第三个方框 end */
+
+/* iPhone11 Pro and WWDC20 start*/
+
+/* 容器 */
+.iP11-Pro-WW-con {
+    display: flex;
+    flex-wrap: wrap;
+    /* 横向排列 */
+    margin-top: -130px;
+}
+/* 字体通用样式 */
+.iP11-Pro-WW-con li{
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:35px 0;
+}
+/* 插入图片 */
+.iP11-Pro{
+    background-image: url(../img/iiphone11-Pro.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.WWDC20{
+    background-image: url(../img/WWDC20.jpg);
+    background-size: 90% 60%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+/* 字体样式 */
+.iP11-Pro-WW-con li {
+    width:656px;
+    height: 560px;
+    margin-left: 14px;
+    background-color: rgb(0, 0, 0);
+}
+.iPhone11-Pro32{
+    font-size:32px;
+    COLOR:rgb(245,245,247);
+    letter-spacing:0.064px;
+    line-height:36px;
+    margin-top:37px;
+}
+.apple{
+    font-size:40px;
+    color:rgb(255, 255, 255);
+}
+.WWDC20-32{
+    font-size:32px;
+    COLOR:rgb(245,245,247);
+    margin-top:37px;
+    letter-spacing:2px;
+}
+.summer32{
+    font-size:32px;
+    color:rgb(245,245,247);
+    line-height:36px;
+    letter-spacing:2px;
+}
+
+.function19{
+    font-size:19px;
+    color:rgb(245,245,247);
+    line-height:23px;
+    margin-top:3px;
+}
+.iPhone11-pro-price17{
+    font-size:14px;
+    color:rgb(134,134,121);
+    line-height:45px;
+}
+.further11-pro-font21 a{
+    font-size:21;
+    color:rgb(23,151,239);
+    text-decoration:none;
+    line-height:21px;
+}
+.iP11-Pro>.further11-pro-font21 a:hover{
+    text-decoration: underline;
+}
+.WWDC20 a{
+    font-size:21;
+    color:rgb(23,151,239);
+    text-decoration:none;
+    line-height: 50px;
+}
+.WWDC20>.WWDC20-font21 a:hover{
+   text-decoration: underline;
+}
+
+/* iPhone11 Pro and WWDC20 end*/
+
+/*  Watch and iPad Pro start*/
+/* 容器 */
+.Watch-iPad-con {
+    display: flex;
+    flex-wrap: wrap;
+    /* 横向排列 */
+    margin-top: -110px;
+}
+/* 字体通用样式 */
+.Watch-iPad-con li{
+    color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    width:656px;
+    height: 560px;
+    margin-left: 14px;
+    margin-top: 100px;
+    background-color: rgb(250, 250, 250);
+}
+/* 插入图片 */
+.Watch{
+    background-image: url(../img/Watch.jpg);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.ipad{
+    background-image: url(../img/iPad-Pro.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.Watch>.Watch-ipad32>.apple{
+    /* font-size:40px; */
+    color:rgb(29, 29, 31);
+}
+.Watch-ipad32{
+    font-size:32px;
+    COLOR:rgb(29, 29, 31);
+    margin-top:37px;
+    letter-spacing:2px;
+}
+.series5-10{
+    font-size:10px;
+    color:rgb(219,82,91);
+    line-height:20px;
+}
+.Watch-ipad19{
+    font-size:19px;
+    color:#1d1d1f;
+    line-height: 26px;
+    font-weight:400;
+}
+.Watch21 a{
+    font-size:21;
+    color:rgb(23,151,239);
+    text-decoration:none;
+    line-height:40px;
+}
+.Watch-iPad-con>.Watch>.Watch21 a:hover{
+    text-decoration: underline;
+}
+
+.ipad21 a{
+    font-size:21;
+    color:rgb(23,151,239);
+    text-decoration:none;
+    line-height:40px;
+}
+.Watch-iPad-con>.ipad>.ipad21 a:hover{
+    text-decoration: underline;
+}
+
+/*  Watch and iPad Pro end*/
+
+/*  Today at Apple  and Music  start*/
+/* 容器 */
+.home-music-con {
+    display: flex;
+    flex-wrap: wrap;
+    /* 横向排列 */
+    margin-top: -110px;
+}
+/* 字体通用样式 */
+.home-music-con li {
+   
+    width:656px;
+    height: 560px;
+    margin-left: 14px;
+    margin-top: 130px;
+}
+.text{
+    color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 230px;
+}
+/* 插入图片 */
+.home{
+    background-image: url(../img/Today-at-Apple.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.music{
+    background-image: url(../img/Music.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+}
+
+.home32{
+    font-size:32px;
+    COLOR:rgb(247, 247, 252);
+    margin-top:37px;
+    letter-spacing:2px;
+}
+.home10{
+    font-size:16px;
+    color:rgb(247, 247, 252);
+    line-height:20px;
+}
+.home30{
+    font-size:32px;
+    color:rgb(219,82,91);
+
+}
+.home21 a{
+    font-size:16px;
+    color:rgb(247, 247, 252);
+    text-decoration:none;
+    line-height:40px;
+}
+.home-music-con>.home>.home21 a:hover{
+    text-decoration: underline;
+}
+.music32,.mApple{
+    font-size:32px;
+    COLOR:rgb(37, 37, 37);
+    margin-top:37px;
+    letter-spacing:2px;
+    font-weight:600;
+}
+.music19{
+    font-size:16px;
+    color:rgb(29,29,31);
+    line-height:20px;
+}
+.music21 a{
+    font-size:16px;
+    color:rgb(23,151,239);
+    text-decoration:none;
+    line-height:40px;
+}
+.home-music-con>.music>.music21 a:hover{
+    text-decoration: underline;
+}
+/*  Today at Apple  and Music  end*/
+
+/* 页脚 start */
+/* 脚注 */
+.footnote{
+    width:100%;
+    height:220px;
+    background-color:rgb(245,245,247);
+    padding: 17px 0  11px;
+    border-bottom: 1px solid #d2d2d7;
+}
+.f-1,
+.f-2,
+.f-3{
+    font-size:12px;
+    color:#86868b;
+    line-height: 16px;
+    letter-spacing: normal;
+    /* 左对齐 */
+    text-align: left ;
+    padding:7px 200px 5px 200px;
+}
+.f-3{
+    padding:5px 200px 25px 200px;
+} 
+.f-1 a{
+    color:rgb(29, 29, 31);
+    text-decoration: none;
+}
+.footnote>.f-1> a:hover{
+    text-decoration: underline;
+}
+
+/* 目录 */
+.bottom-list{
+    width:100%;
+    height:440px;
+    background-color:rgb(245,245,247);
+    border-bottom: 1px solid #d2d2d7;
+    border-top: 1px solid #d2d2d7;
+    padding: 17px 0 0 0;
+}
+.list-text{
+    font-size:12px;
+    color:rgb(29, 29, 31);
+    line-height: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    /* 顶端对齐 */
+    vertical-align: text-top;
+    /* 控制容器边距 */
+    padding:7px 200px 25px 200px;
+}
+/* 控制子容器边距 */
+.div{
+    padding-right:75px;
+}
+/* 加粗字体 */
+.ticken{
+   font-weight:600;
+}
+.more{
+    color:#86868b;
+    /* 上间距 */
+    padding:45px 0 ;
+}
+
+.choose a{
+    color:rgb(29, 29, 31);
+    text-decoration: none;
+}
+.more a{
+    color:rgb(23,151,239);
+    text-decoration: none;
+}
+.bottom-list>.list-text>.div>.choose a:hover{
+        text-decoration: underline;
+}
+.bottom-list>.list-text>.div>.more a:hover{
+    text-decoration: underline;
+}
+
+
+/* 版权信息 */
+.copyright{
+    width:100%;
+    height:70px;
+    background-color:rgb(245,245,247);
+}
+.right-text{
+    display:flex;
+    flex-wrap: wrap;
+    font-size:10px;
+    color:#86868b;
+    line-height: 20px;
+    letter-spacing: 1px;
+    /* 顶端对齐 */
+    padding:7px 200px 0 200px;
+}
+
+.right-text a{
+    color:#86868b;
+    text-decoration: none;
+}
+.copyright>.right-text>.right1 a:hover{
+    color:rgb(29, 29, 31);
+}
+
+/* 页脚  end */
+
+
+/* 产品展示  end */
